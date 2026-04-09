@@ -1,0 +1,24 @@
+Betreff: Neue Webseite für {{FIRMENNAME}}? Ich habe schon mal eine Vorschau erstellt
+
+Guten Tag,
+
+mein Name ist {{DEIN_NAME}} von Hass Media aus {{DEINE_STADT}}.
+
+Ich bin auf Ihre Webseite ({{WEBSITE}}) aufmerksam geworden und habe mir erlaubt, eine moderne Vorschau-Version für {{FIRMENNAME}} zu erstellen — komplett unverbindlich und kostenlos.
+
+Hier können Sie sich die Vorschau ansehen:
+{{VORSCHAU_URL}}
+
+Die Vorschau zeigt, wie Ihre Webseite mit einem modernen, mobilfreundlichen Design aussehen könnte — professionell, schnell und ansprechend für Ihre Kunden.
+
+Falls das für Sie interessant klingt, antworten Sie einfach auf diese Mail. Ich melde mich dann bei Ihnen und wir besprechen alles Weitere — ganz unverbindlich.
+
+Beste Grüße
+{{DEIN_NAME}}
+{{DEINE_EMAIL}}
+{{DEINE_TELEFON}}
+
+---
+{{IMPRESSUM}}
+
+Sie möchten keine weiteren Nachrichten erhalten? Antworten Sie einfach mit "Abmelden" und ich werde Sie nicht mehr kontaktieren.
