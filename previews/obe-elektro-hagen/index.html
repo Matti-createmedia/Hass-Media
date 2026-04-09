@@ -145,7 +145,8 @@
         }
         @media (max-width: 768px) {
             .hamburger { display: block; }
-            .nav-links { display: none; }
+            .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg); border-bottom: 1px solid var(--border); padding: 1rem 2rem; gap: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+            .nav-links.open { display: flex; }
             .hero { min-height: 85vh; padding: 3rem 1.5rem; }
             .hero h1 { font-size: 2.2rem; }
             .hero p { font-size: 1rem; }
@@ -374,5 +375,15 @@
         </div>
     </footer>
 
+    <script>
+    document.querySelector('.hamburger').addEventListener('click', function() {
+        document.querySelector('.nav-links').classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-links a').forEach(function(link) {
+        link.addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.remove('open');
+        });
+    });
+    </script>
 </body>
 </html>
